@@ -40,7 +40,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-/src/asserts/favicon.ico
+/src/assets/favicon.ico
 
 # System Files
 .DS_Store
