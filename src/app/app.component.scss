@@ -9,7 +9,9 @@
 }
 
 #menu-title {
-  border-radius: unset;
-  position: sticky;
-  top: 56px;
+  background: white;
+}
+
+.fullscreen {
+  min-height: 100vh;
 }

@@ -9,6 +9,7 @@ import { CompetencesComponent } from './competences/competences.component';
 import { ExperiencesProComponent } from './experiences-pro/experiences-pro.component';
 import { FormationsComponent } from './formations/formations.component';
 import { LoisirsComponent } from './loisirs/loisirs.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LoisirsComponent } from './loisirs/loisirs.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
