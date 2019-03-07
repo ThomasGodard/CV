@@ -44,8 +44,8 @@ export class AppComponent implements OnInit {
     // }
   ];
 
-  //TODO mettre à false pour l'ecran d'accueil
-  isEnter: boolean = true;
+  //  mettre à false pour l'ecran d'accueil
+  isEnter: boolean = false;
 
   selectedMenu: string = this.menus[0].title;
 

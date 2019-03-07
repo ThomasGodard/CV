@@ -1,4 +1,4 @@
-<!--<app-header [@enter]="'out'" *ngIf="!isEnter" (enter)="onEnter()"></app-header>-->
+<app-header [@enter]="'out'" *ngIf="!isEnter" (enter)="onEnter()"></app-header>
 <div *ngIf="isEnter">
   <nav id="navigation" class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +31,6 @@
   <div class="container">
         <router-outlet></router-outlet>
   </div>
+
 </div>
-<footer class="fixed-bottom d-flex justify-content-center" style="height: 60px; background-color: #dddddd">
-  <div class="align-self-center">
-    <p class="text-center text-dark m-0"> Made with <i class="fab fa-angular"></i> by MySelf</p>
-  </div>
-</footer>
+
