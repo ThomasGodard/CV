@@ -1,0 +1,35 @@
+i {
+  margin: 0 10px;
+}
+
+.progress{
+  height: auto;
+  margin: 30px 20px 0 20px;;
+  background: #ddd;
+}
+
+#back .progress-bar {
+  background: #63a852;
+}
+
+#front .progress-bar {
+  background: #b22100;
+}
+
+#bdd .progress-bar {
+  background: #1184b2;
+}
+
+#environnement .progress-bar {
+  background: #bab833;
+}
+
+.progress h5{
+  margin-top: 5px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.card {
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+}

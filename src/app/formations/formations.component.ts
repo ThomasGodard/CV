@@ -16,6 +16,7 @@ import {animate, style, transition, trigger} from "@angular/animations";
         // animation and styles at end of transition
         animate('.4s', style({opacity: 1}))
       ]),
+
     ])
   ],
   host: { '[@fadeInAnimation]': '' }
