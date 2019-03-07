@@ -38,10 +38,10 @@ export class AppComponent implements OnInit {
       title: 'Formations',
       link: '/formations'
     },
-    {
-      title: 'Loisirs',
-      link: '/loisirs'
-    }
+    // {
+    //   title: 'Loisirs',
+    //   link: '/loisirs'
+    // }
   ];
 
   //TODO mettre à false pour l'ecran d'accueil
